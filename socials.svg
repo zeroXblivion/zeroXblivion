@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100" width="100%" height="100">
+    <defs>
+        <style>
+            .social-group { color: #94a3b8; cursor: pointer; transition: color 0.3s ease; }
+            .social-group:hover { color: #38bdf8; }
+            
+            .social-icon { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; transition: filter 0.3s ease; }
+            .social-icon-fill { fill: currentColor; stroke: none; transition: filter 0.3s ease; }
+            .social-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; font-weight: 600; fill: currentColor; dominant-baseline: middle; transition: filter 0.3s ease; }
+            
+            .social-group:hover .social-icon, .social-group:hover .social-icon-fill { filter: drop-shadow(0px 0px 4px rgba(56, 189, 248, 0.6)); }
+            .social-group:hover .social-text { filter: drop-shadow(0px 0px 3px rgba(56, 189, 248, 0.3)); }
+
+            .fade-in { opacity: 0; animation: fadeUp 0.8s ease-out forwards; }
+            .d-1 { animation-delay: 0.2s; }
+            .d-2 { animation-delay: 0.4s; }
+            .d-3 { animation-delay: 0.6s; }
+            .d-4 { animation-delay: 0.8s; }
+            
+            @keyframes fadeUp {
+                from { opacity: 0; transform: translateY(15px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+            .orbit-packet { fill: #38bdf8; filter: drop-shadow(0 0 3px #38bdf8); }
+            
+            .marching-cube { stroke-dasharray: 4 4; animation: march 1.5s linear infinite; }
+            @keyframes march { to { stroke-dashoffset: -8; } }
+            
+            .terminal-cursor { animation: blink 1s step-end infinite; }
+            @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+            
+            .glitch-wrapper { animation: glitch 4s infinite; transform-origin: center; }
+            @keyframes glitch {
+                0%, 94%, 100% { transform: translate(0, 0) skew(0deg); }
+                95% { transform: translate(-2px, 1px) skew(-3deg); }
+                96% { transform: translate(2px, -1px) skew(3deg); }
+                97% { transform: translate(-1px, 2px) skew(0deg); }
+                98% { transform: translate(1px, -1px) skew(0deg); }
+            }
+
+            @media (prefers-color-scheme: dark) {
+                .social-group { color: #cbd5e1; }
+            }
+        </style>
+    </defs>
+
+    <!-- Item 1: GitHub -->
+    <a href="https://github.com/zeroXblivion" target="_blank" class="social-group fade-in d-1">
+        <g transform="translate(100, 50)">
+            <g transform="translate(-40, 0)">
+                <g transform="translate(-12, -12)" class="social-icon">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </g>
+                <circle r="1.5" class="orbit-packet" stroke="none">
+                    <animateMotion dur="4s" repeatCount="indefinite" path="M 0 -15 A 15 15 0 1 1 0 15 A 15 15 0 1 1 0 -15" />
+                </circle>
+            </g>
+            <text x="-15" y="1" class="social-text">GitHub</text>
+        </g>
+    </a>
+
+    <!-- Item 2: Hack The Box -->
+    <a href="https://app.hackthebox.com/public/users/1244905" target="_blank" class="social-group fade-in d-2">
+        <g transform="translate(300, 50)">
+            <g transform="translate(-65, 0)" class="social-icon marching-cube">
+                <path d="M 0 -12 L 10 -6 L 10 6 L 0 12 L -10 6 L -10 -6 Z" />
+                <path d="M -10 -6 L 0 0 L 10 -6 M 0 0 L 0 12" />
+            </g>
+            <text x="-40" y="1" class="social-text">Hack The Box</text>
+        </g>
+    </a>
+
+    <!-- Item 3: Blog -->
+    <a href="https://0xblivion.dev" target="_blank" class="social-group fade-in d-3">
+        <g transform="translate(500, 50)">
+            <g transform="translate(-30, 0)">
+                <path d="M -8 -6 L 0 0 L -8 6" class="social-icon" />
+                <line x1="2" y1="6" x2="10" y2="6" class="social-icon terminal-cursor" />
+            </g>
+            <text x="-10" y="1" class="social-text">Blog</text>
+        </g>
+    </a>
+
+    <!-- Item 4: LinkedIn -->
+    <a href="https://www.linkedin.com/in/gderu" target="_blank" class="social-group fade-in d-4">
+        <g transform="translate(700, 50)">
+            <g transform="translate(-45, 0)">
+                <g class="glitch-wrapper">
+                    <g transform="translate(-12, -12)">
+                        <path class="social-icon" d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                        <rect class="social-icon" x="2" y="9" width="4" height="12" />
+                        <circle class="social-icon-fill" cx="4" cy="4" r="2" />
+                    </g>
+                </g>
+            </g>
+            <text x="-20" y="1" class="social-text">LinkedIn</text>
+        </g>
+    </a>
+</svg>
