@@ -30,7 +30,6 @@ Active CTF participant.
 
 
 \## Socials<br>
-GitHub: https://github.com/zeroXblivion <br>
 Hack The Box: https://app.hackthebox.com/public/users/1244905 <br>
 Blog: https://0xblivion.dev <br>
 LinkedIn: https://www.linkedin.com/in/gderu
