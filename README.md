@@ -11,7 +11,7 @@ Active CTF participant.
 \- Web application security<br>
 \- Reverse engineering<br>
 \- Binary exploitation<br>
-\- Network protocols<br>
+\- Network pentesting<br>
 \- Offensive tooling<br>
 \- CTF
 
@@ -21,6 +21,7 @@ Active CTF participant.
 \- Static and dynamic analysis<br>
 \- Exploit development fundamentals<br>
 \- Automation scripting
+\- Active Directory exploitations
 
 
 \## Languages<br>
