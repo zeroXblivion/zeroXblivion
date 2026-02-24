@@ -1,3 +1,4 @@
+<pre>
 Grant Hortelano
 ===============
 
@@ -46,7 +47,8 @@ Languages
 Socials
 -------
 
-GitHub: https://github.com/zeroXblivion  
+GitHub: https://github.com/zeroXblivion
 Hack The Box: https://app.hackthebox.com/public/users/1244905
-Blog: https://0xblivion.dev  
-LinkedIn: www.linkedin.com/in/gderu
+Blog: https://0xblivion.dev
+LinkedIn: https://www.linkedin.com/in/gderu
+</pre>
