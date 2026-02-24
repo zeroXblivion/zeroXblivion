@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="220">
+    <defs>
+        <style>
+            .name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 42px; font-weight: 800; fill: #0f172a; opacity: 0; animation: fadeUp 1s ease-out forwards; animation-delay: 0.2s; }
+            .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #64748b; letter-spacing: 3px; opacity: 0; animation: fadeUp 1s ease-out forwards; animation-delay: 0.6s; }
+            .tech-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: 500; fill: #94a3b8; opacity: 0; animation: fadeUp 1s ease-out forwards; }
+            .line { stroke: url(#gradient); stroke-width: 3; stroke-dasharray: 400; stroke-dashoffset: 400; animation: draw 1.5s cubic-bezier(0.25, 1, 0.5, 1) forwards; animation-delay: 0.4s; stroke-linecap: round; }
+            .node { fill: url(#gradient); opacity: 0; animation: popIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; }
+            .link-line { stroke: #cbd5e1; stroke-width: 1.5; opacity: 0; animation: fadeIn 1s ease forwards; animation-delay: 1.2s; stroke-dasharray: 4 4; }
+            
+            .d-1 { animation-delay: 1.0s; }
+            .d-2 { animation-delay: 1.2s; }
+            .d-3 { animation-delay: 1.4s; }
+            
+            .floating { animation: float 8s ease-in-out infinite; transform-origin: center; }
+
+            @keyframes fadeUp {
+                from { opacity: 0; transform: translateY(15px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+            @keyframes draw {
+                to { stroke-dashoffset: 0; }
+            }
+            @keyframes popIn {
+                from { opacity: 0; transform: scale(0); }
+                to { opacity: 1; transform: scale(1); }
+            }
+            @keyframes fadeIn {
+                to { opacity: 0.6; }
+            }
+            @keyframes float {
+                0%, 100% { transform: translateY(0px); }
+                50% { transform: translateY(-8px); }
+            }
+
+            @media (prefers-color-scheme: dark) {
+                .name { fill: #f8fafc; }
+                .subtitle { fill: #94a3b8; }
+                .tech-text { fill: #64748b; }
+                .link-line { stroke: #334155; }
+            }
+        </style>
+
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#38bdf8; stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#818cf8; stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <g transform="translate(50, 85)">
+        <text x="0" y="0" class="name">Grant Hortelano</text>
+        <line x1="0" y1="20" x2="120" y2="20" class="line" />
+        <text x="0" y="55" class="subtitle">OFFENSIVE SECURITY • REVERSE ENGINEERING</text>
+        
+        <circle cx="5" cy="85" r="3" class="node d-1" />
+        <text x="15" y="89" class="tech-text d-1">AppSec</text>
+        
+        <circle cx="85" cy="85" r="3" class="node d-2" />
+        <text x="95" y="89" class="tech-text d-2">Exploitation</text>
+        
+        <circle cx="185" cy="85" r="3" class="node d-3" />
+        <text x="195" y="89" class="tech-text d-3">Analysis</text>
+    </g>
+
+    <g class="floating">
+        <path d="M 580 110 L 670 60 L 730 130" class="link-line" fill="none" />
+        <path d="M 580 110 L 640 160 L 730 130" class="link-line" fill="none" />
+        <path d="M 670 60 L 640 160" class="link-line" fill="none" />
+
+        <circle cx="580" cy="110" r="8" class="node" style="animation-delay: 1.4s;" />
+        <text x="560" y="135" class="tech-text" style="animation-delay: 1.5s;">Python</text>
+
+        <circle cx="670" cy="60" r="6" class="node" style="animation-delay: 1.6s;" />
+        <text x="660" y="45" class="tech-text" style="animation-delay: 1.7s;">Go</text>
+
+        <circle cx="730" cy="130" r="7" class="node" style="animation-delay: 1.8s;" />
+        <text x="715" y="155" class="tech-text" style="animation-delay: 1.9s;">Java</text>
+
+        <!-- Sub-node (Decor) -->
+        <circle cx="640" cy="160" r="4" class="node" style="animation-delay: 2.0s; fill: #94a3b8;" />
+    </g>
+</svg>
