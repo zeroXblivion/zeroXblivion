@@ -1,16 +1,52 @@
-## Hi there 👋
+Grant Hortelano
+===============
 
-<!--
-**zeroXblivion/zeroXblivion** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---------------------------------------------------------------------
 
-Here are some ideas to get you started:
+Summary
+-------
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Offensive security practitioner focused on web application security, reverse engineering, and exploitation.
+
+Active CTF participant.
+
+---------------------------------------------------------------------
+
+Top Interests
+-------------
+
+- Web application security
+- Reverse engineering
+- Binary exploitation
+- Network protocols
+- Offensive tooling
+- CTF
+
+---------------------------------------------------------------------
+
+Skills
+------
+
+- Penetration testing
+- Static and dynamic analysis
+- Exploit development fundamentals
+- Automation scripting
+
+---------------------------------------------------------------------
+
+Languages
+---------
+
+- Python
+- Go
+- Java
+
+---------------------------------------------------------------------
+
+Socials
+-------
+
+GitHub: https://github.com/zeroXblivion  
+Hack The Box: https://app.hackthebox.com/public/users/1244905
+Blog: https://0xblivion.dev  
+LinkedIn: www.linkedin.com/in/gderu
