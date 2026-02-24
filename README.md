@@ -29,7 +29,6 @@ Active CTF participant.
 \- Java
 
 
-\## Socials<br>
-Hack The Box: https://app.hackthebox.com/public/users/1244905 <br>
-Blog: https://0xblivion.dev <br>
-LinkedIn: https://www.linkedin.com/in/gderu
+<picture>
+  <img src="./socials.svg" alt="Socials" width="100%">
+</picture>
