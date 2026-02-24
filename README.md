@@ -28,11 +28,11 @@ Active CTF participant.
 \- Go<br>
 \- Java
 
-\## Socials
-**GitHub:** https://github.com/zeroXblivion<br>
-**Hack The Box:** https://app.hackthebox.com/public/users/1244905<br>
-**Blog:** https://0xblivion.dev <br>
-**LinkedIn:** https://www.linkedin.com/in/gderu
+\## Socials<br>
+GitHub: https://github.com/zeroXblivion<br>
+Hack The Box: https://app.hackthebox.com/public/users/1244905<br>
+Blog: https://0xblivion.dev <br>
+LinkedIn: https://www.linkedin.com/in/gderu
 
 <cat>
   <img src="./cat.svg" alt="Running cat" width="100%">
