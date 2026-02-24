@@ -2,12 +2,12 @@
   <img src="./banner.svg" alt="Profile Banner" width="100%">
 </picture>
 
-**Summary**<br>
+\# Summary<br>
 Offensive security practitioner focused on web application security, reverse engineering, and exploitation.<br>
 Active CTF participant.
 
 
-**Top Interests**<br>
+\# Top Interests<br>
 \- Web application security<br>
 \- Reverse engineering<br>
 \- Binary exploitation<br>
@@ -16,20 +16,20 @@ Active CTF participant.
 \- CTF
 
 
-**Skills**<br>
+\# Skills<br>
 \- Penetration testing<br>
 \- Static and dynamic analysis<br>
 \- Exploit development fundamentals<br>
 \- Automation scripting
 
 
-**Languages**<br>
+\# Languages<br>
 \- Python<br>
 \- Go<br>
 \- Java
 
 
-**Socials**<br>
+\# Socials<br>
 GitHub: https://github.com/zeroXblivion <br>
 Hack The Box: https://app.hackthebox.com/public/users/1244905 <br>
 Blog: https://0xblivion.dev <br>
