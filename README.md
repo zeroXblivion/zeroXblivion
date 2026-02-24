@@ -1,50 +1,45 @@
-Grant Hortelano
+Grant Hortelano<br>
 \===============
 
-Summary
--------
-
-Offensive security practitioner focused on web application security, reverse engineering, and exploitation.
-
+\---------------------------------------------------------------------<br>
+Summary<br>
+\-------<br>
+Offensive security practitioner focused on web application security, reverse engineering, and exploitation.<br>
 Active CTF participant.
 
-\---------------------------------------------------------------------
+\---------------------------------------------------------------------<br>
 
-Top Interests
--------------
-
-\- Web application security
-\- Reverse engineering
-\- Binary exploitation
-\- Network protocols
-\- Offensive tooling
+Top Interests<br>
+\-------------<br>
+\- Web application security<br>
+\- Reverse engineering<br>
+\- Binary exploitation<br>
+\- Network protocols<br>
+\- Offensive tooling<br>
 \- CTF
 
-\---------------------------------------------------------------------
+\---------------------------------------------------------------------<br>
 
-Skills
-------
-
-\- Penetration testing
-\- Static and dynamic analysis
-\- Exploit development fundamentals
+Skills<br>
+\------<br>
+\- Penetration testing<br>
+\- Static and dynamic analysis<br>
+\- Exploit development fundamentals<br>
 \- Automation scripting
 
-\---------------------------------------------------------------------
+\---------------------------------------------------------------------<br>
 
-Languages
----------
-
-\- Python
-\- Go
+Languages<br>
+\---------<br>
+\- Python<br>
+\- Go<br>
 \- Java
 
-\---------------------------------------------------------------------
+\---------------------------------------------------------------------<br>
 
-Socials
--------
-
-GitHub: https://github.com/zeroXblivion  
-Hack The Box: https://app.hackthebox.com/public/users/1244905
-Blog: https://0xblivion.dev  
-LinkedIn: www.linkedin.com/in/gderu
+Socials<br>
+\-------<br>
+GitHub: https://github.com/zeroXblivion <br>
+Hack The Box: https://app.hackthebox.com/public/users/1244905 <br>
+Blog: https://0xblivion.dev <br>
+LinkedIn: https://www.linkedin.com/in/gderu
