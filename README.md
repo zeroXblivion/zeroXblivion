@@ -18,8 +18,6 @@ Active CTF participant.
 
 \## Skills<br>
 \- Penetration testing<br>
-\- Static and dynamic analysis<br>
-\- Exploit development fundamentals<br>
 \- Automation scripting
 \- Active Directory exploitations
 
